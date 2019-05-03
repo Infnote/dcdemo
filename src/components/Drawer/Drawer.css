@@ -1,0 +1,15 @@
+.drawer {
+    border-right: 1px solid #DDD;
+    overflow: scroll;
+    height: 100%;
+}
+
+.drawer .title {
+    padding: 16px;
+}
+
+.drawer .element {
+    font-family: "Roboto Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    font-size: 12px;
+}
