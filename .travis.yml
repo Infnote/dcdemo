@@ -12,13 +12,13 @@ script:
 
 jobs:
   include:
-    - stage: blockchain.infnote.com
+    - stage: chinadigitaltimes.infnote.com
       deploy:
         provider: pages
         skip-cleanup: true
         github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
         keep-history: false
         local-dir: ./build/
-        fqdn: blockchain.infnote.com
+        fqdn: chinadigitaltimes.infnote.com
         on:
           branch: master
